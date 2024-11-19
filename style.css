@@ -1,0 +1,157 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+header {
+    background-color: rgb(47, 108, 231);
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-order{
+    background-color: #ff4d70;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #689afe;
+}
+.hero-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+.hero-content {
+    max-width: 600px;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+.btn-primary {
+    background-color: #608aff;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* Product Section */
+#product h2 {
+    padding: 40px 0 0 40px;
+}
+.product-list {
+    background-color: #87b2fb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.product {
+    text-align: center;
+    max-width: 700px;
+    margin: 20px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* Testimonials Section */
+#testimonials {
+    padding: 20px;
+    text-align: center;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #7b9ff5;
+}
+.testimonial {
+    margin: 20px;
+    max-width: 300px;
+}
+.testimonial img {
+    width: 150%;
+    height: auto;
+    border-radius: 700px;
+}
+/* Contact Section */
+#contact {
+    background-color: rgb(117, 188, 255);
+    padding: 40px;
+    text-align: center;
+}
+form input,
+form textarea {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid#000000;
+}
+button {
+    padding: 10px 20px;
+    background-color: #0e000d;
+    color: rgb(240, 208, 244);
+    border: none;
+    cursor: pointer;
+}
+/* Footer */
+footer {
+     background-color: #020350;
+     color: white;
+     text-align: center;
+     padding: 20px;
+}
+footer p {
+    margin: 10px 0;
+}
+.social-icons {
+    margin-bottom: 10px;
+}
+.social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+}
